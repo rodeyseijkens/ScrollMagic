@@ -40,6 +40,9 @@
 	}
 }(this, function (ScrollMagic, Tween, Timeline) {
 	"use strict";
+	
+	if(typeof(window) === 'undefined'){ return; }
+	
 	var NAMESPACE = "animation.gsap";
 
 	var
